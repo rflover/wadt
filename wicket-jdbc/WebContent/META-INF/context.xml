@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/WicketJdbcExample" docBase="WicketJdbcExample"
+        debug="5" reloadable="true" crossContext="true">
+   <Resource name="hsqldb/wadtdb" auth="Container" type="javax.sql.DataSource"
+               maxActive="100" maxIdle="30" maxWait="10000"
+               username="SA" password="" driverClassName="org.hsqldb.jdbc.JDBCDriver"
+               url="jdbc:hsqldb:file:/home/u1/tsi/web_app_dev_tools/wadt/wicket-jdbc/wadtdb"/>
+</Context> 

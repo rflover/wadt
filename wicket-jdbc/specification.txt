@@ -1,0 +1,30 @@
+Javaguru programming courses site
+
+User stories
+
+1. A visitor reads course information
+A visitor in order to know more about the courses, opens courses home page, selects the course 
+she's curious about and reads the course description displayed
+
+2. Sign up 
+A visitor, in order to register for a course, signs up as a user.
+The site forces users to sign up before registration in order to allow user to manage 
+his communication preferences and contact details later on.
+
+3. Login
+A visitor to acknowledge she is the user, logs in with a password.
+
+4. Password change
+Available only to authenticated users.
+
+5. Register for a course
+Available only to authenticated users.
+An authenticated user can register or deregister for a course.
+There are dependencies between courses: one has to register for Java1 before she will be allowed
+to register for Java2.   
+
+6. Edit course offerings
+Available only to administrators.
+An administrator in order to provide actual course information to site visitors, 
+adds and deletes courses, edits course descriptions and dependencies. 
+ 
